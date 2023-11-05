@@ -8,5 +8,8 @@ setup(name='gpt',
       license='MIT',
       install_requires=[
             'torch',
+            'datasets',
+            'transformers',
+            'tokenizers'
       ],
 )
